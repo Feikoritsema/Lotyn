@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		409A22D21F90CBB700504ED9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409A22D11F90CBB700504ED9 /* AppDelegate.swift */; };
+		409A22D41F90CBB700504ED9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409A22D31F90CBB700504ED9 /* ViewController.swift */; };
+		409A22D71F90CBB700504ED9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 409A22D51F90CBB700504ED9 /* Main.storyboard */; };
+		409A22D91F90CBB700504ED9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 409A22D81F90CBB700504ED9 /* Assets.xcassets */; };
+		409A22DC1F90CBB700504ED9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 409A22DA1F90CBB700504ED9 /* LaunchScreen.storyboard */; };
+		409A22E71F90CBB700504ED9 /* LotynTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409A22E61F90CBB700504ED9 /* LotynTests.swift */; };
+		409A22F21F90CBB700504ED9 /* LotynUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409A22F11F90CBB700504ED9 /* LotynUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		409A22E31F90CBB700504ED9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 409A22C61F90CBB700504ED9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 409A22CD1F90CBB700504ED9;
+			remoteInfo = Lotyn;
+		};
+		409A22EE1F90CBB700504ED9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 409A22C61F90CBB700504ED9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 409A22CD1F90CBB700504ED9;
+			remoteInfo = Lotyn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		409A22CE1F90CBB700504ED9 /* Lotyn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lotyn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		409A22D11F90CBB700504ED9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		409A22D31F90CBB700504ED9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		409A22D61F90CBB700504ED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		409A22D81F90CBB700504ED9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		409A22DB1F90CBB700504ED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		409A22DD1F90CBB700504ED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		409A22E21F90CBB700504ED9 /* LotynTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LotynTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		409A22E61F90CBB700504ED9 /* LotynTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotynTests.swift; sourceTree = "<group>"; };
+		409A22E81F90CBB700504ED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		409A22ED1F90CBB700504ED9 /* LotynUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LotynUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		409A22F11F90CBB700504ED9 /* LotynUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotynUITests.swift; sourceTree = "<group>"; };
+		409A22F31F90CBB700504ED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		409A22CB1F90CBB700504ED9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		409A22DF1F90CBB700504ED9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		409A22EA1F90CBB700504ED9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		409A22C51F90CBB700504ED9 = {
+			isa = PBXGroup;
+			children = (
+				409A22D01F90CBB700504ED9 /* Lotyn */,
+				409A22E51F90CBB700504ED9 /* LotynTests */,
+				409A22F01F90CBB700504ED9 /* LotynUITests */,
+				409A22CF1F90CBB700504ED9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		409A22CF1F90CBB700504ED9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				409A22CE1F90CBB700504ED9 /* Lotyn.app */,
+				409A22E21F90CBB700504ED9 /* LotynTests.xctest */,
+				409A22ED1F90CBB700504ED9 /* LotynUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		409A22D01F90CBB700504ED9 /* Lotyn */ = {
+			isa = PBXGroup;
+			children = (
+				409A23011F90CC0500504ED9 /* Controller */,
+				409A23001F90CC0100504ED9 /* View */,
+				409A22FF1F90CBFB00504ED9 /* Model */,
+				409A22D11F90CBB700504ED9 /* AppDelegate.swift */,
+				409A22D31F90CBB700504ED9 /* ViewController.swift */,
+				409A22D51F90CBB700504ED9 /* Main.storyboard */,
+				409A22D81F90CBB700504ED9 /* Assets.xcassets */,
+				409A22DA1F90CBB700504ED9 /* LaunchScreen.storyboard */,
+				409A22DD1F90CBB700504ED9 /* Info.plist */,
+			);
+			path = Lotyn;
+			sourceTree = "<group>";
+		};
+		409A22E51F90CBB700504ED9 /* LotynTests */ = {
+			isa = PBXGroup;
+			children = (
+				409A22E61F90CBB700504ED9 /* LotynTests.swift */,
+				409A22E81F90CBB700504ED9 /* Info.plist */,
+			);
+			path = LotynTests;
+			sourceTree = "<group>";
+		};
+		409A22F01F90CBB700504ED9 /* LotynUITests */ = {
+			isa = PBXGroup;
+			children = (
+				409A22F11F90CBB700504ED9 /* LotynUITests.swift */,
+				409A22F31F90CBB700504ED9 /* Info.plist */,
+			);
+			path = LotynUITests;
+			sourceTree = "<group>";
+		};
+		409A22FF1F90CBFB00504ED9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		409A23001F90CC0100504ED9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		409A23011F90CC0500504ED9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		409A22CD1F90CBB700504ED9 /* Lotyn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 409A22F61F90CBB700504ED9 /* Build configuration list for PBXNativeTarget "Lotyn" */;
+			buildPhases = (
+				409A22CA1F90CBB700504ED9 /* Sources */,
+				409A22CB1F90CBB700504ED9 /* Frameworks */,
+				409A22CC1F90CBB700504ED9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lotyn;
+			productName = Lotyn;
+			productReference = 409A22CE1F90CBB700504ED9 /* Lotyn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		409A22E11F90CBB700504ED9 /* LotynTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 409A22F91F90CBB700504ED9 /* Build configuration list for PBXNativeTarget "LotynTests" */;
+			buildPhases = (
+				409A22DE1F90CBB700504ED9 /* Sources */,
+				409A22DF1F90CBB700504ED9 /* Frameworks */,
+				409A22E01F90CBB700504ED9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				409A22E41F90CBB700504ED9 /* PBXTargetDependency */,
+			);
+			name = LotynTests;
+			productName = LotynTests;
+			productReference = 409A22E21F90CBB700504ED9 /* LotynTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		409A22EC1F90CBB700504ED9 /* LotynUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 409A22FC1F90CBB700504ED9 /* Build configuration list for PBXNativeTarget "LotynUITests" */;
+			buildPhases = (
+				409A22E91F90CBB700504ED9 /* Sources */,
+				409A22EA1F90CBB700504ED9 /* Frameworks */,
+				409A22EB1F90CBB700504ED9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				409A22EF1F90CBB700504ED9 /* PBXTargetDependency */,
+			);
+			name = LotynUITests;
+			productName = LotynUITests;
+			productReference = 409A22ED1F90CBB700504ED9 /* LotynUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		409A22C61F90CBB700504ED9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = JSCF;
+				TargetAttributes = {
+					409A22CD1F90CBB700504ED9 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					409A22E11F90CBB700504ED9 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 334Q99G73C;
+						TestTargetID = 409A22CD1F90CBB700504ED9;
+					};
+					409A22EC1F90CBB700504ED9 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 334Q99G73C;
+						TestTargetID = 409A22CD1F90CBB700504ED9;
+					};
+				};
+			};
+			buildConfigurationList = 409A22C91F90CBB700504ED9 /* Build configuration list for PBXProject "Lotyn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 409A22C51F90CBB700504ED9;
+			productRefGroup = 409A22CF1F90CBB700504ED9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				409A22CD1F90CBB700504ED9 /* Lotyn */,
+				409A22E11F90CBB700504ED9 /* LotynTests */,
+				409A22EC1F90CBB700504ED9 /* LotynUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		409A22CC1F90CBB700504ED9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409A22DC1F90CBB700504ED9 /* LaunchScreen.storyboard in Resources */,
+				409A22D91F90CBB700504ED9 /* Assets.xcassets in Resources */,
+				409A22D71F90CBB700504ED9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		409A22E01F90CBB700504ED9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		409A22EB1F90CBB700504ED9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		409A22CA1F90CBB700504ED9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409A22D41F90CBB700504ED9 /* ViewController.swift in Sources */,
+				409A22D21F90CBB700504ED9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		409A22DE1F90CBB700504ED9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409A22E71F90CBB700504ED9 /* LotynTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		409A22E91F90CBB700504ED9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409A22F21F90CBB700504ED9 /* LotynUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		409A22E41F90CBB700504ED9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 409A22CD1F90CBB700504ED9 /* Lotyn */;
+			targetProxy = 409A22E31F90CBB700504ED9 /* PBXContainerItemProxy */;
+		};
+		409A22EF1F90CBB700504ED9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 409A22CD1F90CBB700504ED9 /* Lotyn */;
+			targetProxy = 409A22EE1F90CBB700504ED9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		409A22D51F90CBB700504ED9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				409A22D61F90CBB700504ED9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		409A22DA1F90CBB700504ED9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				409A22DB1F90CBB700504ED9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		409A22F41F90CBB700504ED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		409A22F51F90CBB700504ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		409A22F71F90CBB700504ED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Lotyn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JSCF.Lotyn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		409A22F81F90CBB700504ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Lotyn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JSCF.Lotyn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		409A22FA1F90CBB700504ED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LotynTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JSFC.LotynTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lotyn.app/Lotyn";
+			};
+			name = Debug;
+		};
+		409A22FB1F90CBB700504ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LotynTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JSFC.LotynTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lotyn.app/Lotyn";
+			};
+			name = Release;
+		};
+		409A22FD1F90CBB700504ED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LotynUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JSFC.LotynUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Lotyn;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		409A22FE1F90CBB700504ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LotynUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JSFC.LotynUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Lotyn;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		409A22C91F90CBB700504ED9 /* Build configuration list for PBXProject "Lotyn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409A22F41F90CBB700504ED9 /* Debug */,
+				409A22F51F90CBB700504ED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		409A22F61F90CBB700504ED9 /* Build configuration list for PBXNativeTarget "Lotyn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409A22F71F90CBB700504ED9 /* Debug */,
+				409A22F81F90CBB700504ED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		409A22F91F90CBB700504ED9 /* Build configuration list for PBXNativeTarget "LotynTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409A22FA1F90CBB700504ED9 /* Debug */,
+				409A22FB1F90CBB700504ED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		409A22FC1F90CBB700504ED9 /* Build configuration list for PBXNativeTarget "LotynUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409A22FD1F90CBB700504ED9 /* Debug */,
+				409A22FE1F90CBB700504ED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 409A22C61F90CBB700504ED9 /* Project object */;
+}
