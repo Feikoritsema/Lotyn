@@ -4,7 +4,6 @@ class Profile {
 
   var tags = [Tag]()
 
-
   /*Restricting information*/
   struct Privacy {
 
@@ -50,7 +49,7 @@ class Profile {
   If return value is (nil), the value was not found.
   Else, the deleted value is returned.
   */
-  func del_tag(tag: Tag) ->  {
+  func del_tag(tag: Tag) -> Tag {
     var re_tag: Tag = nil
     for (index, element) in tags.enumerated() {
       if  element.name == tag.name {
