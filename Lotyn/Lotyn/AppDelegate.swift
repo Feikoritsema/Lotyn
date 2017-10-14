@@ -16,11 +16,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+    override init() {
         FIRApp.configure()
         GMSPlacesClient.provideAPIKey("AIzaSyA5CwPDcRUowdTpaQTDNOYBka0uFoxorIQ")
         GMSServices.provideAPIKey("AIzaSyA5CwPDcRUowdTpaQTDNOYBka0uFoxorIQ")
+    }
+
+    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+
         // Override point for customization after application launch.
         return true
     }
