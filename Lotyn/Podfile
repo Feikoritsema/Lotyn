@@ -17,5 +17,8 @@ pod 'Firebase/Messaging'
 pod 'Firebase/Performance'
 pod 'Firebase/RemoteConfig'
 pod 'Firebase/Storage'
+pod 'GooglePlacePicker', '= 2.3.0'
+pod 'GooglePlaces', '= 2.3.0'
+pod 'GoogleMaps', '= 2.3.0'
 
 end
