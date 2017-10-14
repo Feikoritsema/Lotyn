@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  Lotyn
 //
-//  Created by Feiko Ritsema on 13/10/2017.
-//  Copyright © 2017 JSFC. All rights reserved.
+//  Created by Feiko Ritsema on 14/10/2017.
+//  Copyright © 2017 JSF. All rights reserved.
 //
 
 import UIKit

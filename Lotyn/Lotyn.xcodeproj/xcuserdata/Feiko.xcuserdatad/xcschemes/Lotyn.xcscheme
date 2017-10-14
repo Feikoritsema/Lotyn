@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "409A22CD1F90CBB700504ED9"
+               BlueprintIdentifier = "404DB7CB1F91D6920025B440"
                BuildableName = "Lotyn.app"
                BlueprintName = "Lotyn"
                ReferencedContainer = "container:Lotyn.xcodeproj">
@@ -28,31 +28,11 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "409A22E11F90CBB700504ED9"
-               BuildableName = "LotynTests.xctest"
-               BlueprintName = "LotynTests"
-               ReferencedContainer = "container:Lotyn.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "409A22EC1F90CBB700504ED9"
-               BuildableName = "LotynUITests.xctest"
-               BlueprintName = "LotynUITests"
-               ReferencedContainer = "container:Lotyn.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "409A22CD1F90CBB700504ED9"
+            BlueprintIdentifier = "404DB7CB1F91D6920025B440"
             BuildableName = "Lotyn.app"
             BlueprintName = "Lotyn"
             ReferencedContainer = "container:Lotyn.xcodeproj">
@@ -75,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "409A22CD1F90CBB700504ED9"
+            BlueprintIdentifier = "404DB7CB1F91D6920025B440"
             BuildableName = "Lotyn.app"
             BlueprintName = "Lotyn"
             ReferencedContainer = "container:Lotyn.xcodeproj">
@@ -94,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "409A22CD1F90CBB700504ED9"
+            BlueprintIdentifier = "404DB7CB1F91D6920025B440"
             BuildableName = "Lotyn.app"
             BlueprintName = "Lotyn"
             ReferencedContainer = "container:Lotyn.xcodeproj">

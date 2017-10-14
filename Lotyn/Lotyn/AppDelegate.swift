@@ -2,11 +2,12 @@
 //  AppDelegate.swift
 //  Lotyn
 //
-//  Created by Feiko Ritsema on 13/10/2017.
-//  Copyright © 2017 JSFC. All rights reserved.
+//  Created by Feiko Ritsema on 14/10/2017.
+//  Copyright © 2017 JSF. All rights reserved.
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        FirebaseApp.configure()
         // Override point for customization after application launch.
         return true
     }
