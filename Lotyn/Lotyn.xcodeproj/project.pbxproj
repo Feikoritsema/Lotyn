@@ -13,7 +13,7 @@
 		404DB7D71F91D6920025B440 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 404DB7D61F91D6920025B440 /* Assets.xcassets */; };
 		404DB7DA1F91D6920025B440 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 404DB7D81F91D6920025B440 /* LaunchScreen.storyboard */; };
 		404DB7E51F91D6F70025B440 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 404DB7E41F91D6F70025B440 /* GoogleService-Info.plist */; };
-		7011A0893C82EF614820E1A9 /* Pods_Lotyn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A480F2A81AFC70C19455F5C /* Pods_Lotyn.framework */; };
+		7011A0893C82EF614820E1A9 /* Pods_Lotyn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A480F2A81AFC70C19455F5C /* Pods_Lotyn.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -376,6 +376,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Lotyn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jsf.Lotyn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -388,6 +389,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Lotyn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jsf.Lotyn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
