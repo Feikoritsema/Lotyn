@@ -14,6 +14,8 @@
 		404DB7DA1F91D6920025B440 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 404DB7D81F91D6920025B440 /* LaunchScreen.storyboard */; };
 		40917AC21F91FDCB00ACC17B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40917AC11F91FDCB00ACC17B /* GoogleService-Info.plist */; };
 		40917AC41F92022A00ACC17B /* Lotyn logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 40917AC31F92022A00ACC17B /* Lotyn logo.png */; };
+		40917AC61F92063300ACC17B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40917AC51F92063300ACC17B /* MainViewController.swift */; };
+		40DD83AB1F923159004DC38A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DD83AA1F923159004DC38A /* MapViewController.swift */; };
 		7011A0893C82EF614820E1A9 /* Pods_Lotyn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A480F2A81AFC70C19455F5C /* Pods_Lotyn.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,8 @@
 		404DB7DB1F91D6920025B440 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40917AC11F91FDCB00ACC17B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		40917AC31F92022A00ACC17B /* Lotyn logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lotyn logo.png"; sourceTree = "<group>"; };
+		40917AC51F92063300ACC17B /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		40DD83AA1F923159004DC38A /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		819BC65C7CD54F19E1C2F80C /* Pods-Lotyn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lotyn.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lotyn/Pods-Lotyn.release.xcconfig"; sourceTree = "<group>"; };
 		9A480F2A81AFC70C19455F5C /* Pods_Lotyn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lotyn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6D672EA2C541D7B597EA565 /* Pods-Lotyn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lotyn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lotyn/Pods-Lotyn.debug.xcconfig"; sourceTree = "<group>"; };
@@ -70,6 +74,8 @@
 				404DB7E11F91D6AF0025B440 /* Model */,
 				404DB7CF1F91D6920025B440 /* AppDelegate.swift */,
 				404DB7D11F91D6920025B440 /* ViewController.swift */,
+				40DD83AA1F923159004DC38A /* MapViewController.swift */,
+				40917AC51F92063300ACC17B /* MainViewController.swift */,
 				404DB7D31F91D6920025B440 /* Main.storyboard */,
 				404DB7D61F91D6920025B440 /* Assets.xcassets */,
 				404DB7D81F91D6920025B440 /* LaunchScreen.storyboard */,
@@ -148,12 +154,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = JSF;
 				TargetAttributes = {
 					404DB7CB1F91D6920025B440 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = 334Q99G73C;
 					};
 				};
 			};
@@ -262,8 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40917AC61F92063300ACC17B /* MainViewController.swift in Sources */,
 				404DB7D21F91D6920025B440 /* ViewController.swift in Sources */,
 				404DB7D01F91D6920025B440 /* AppDelegate.swift in Sources */,
+				40DD83AB1F923159004DC38A /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,13 +304,21 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -330,6 +345,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -341,13 +357,21 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -366,6 +390,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -376,6 +402,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Lotyn/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -391,6 +418,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Lotyn/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

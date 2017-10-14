@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     override init() {
-        FIRApp.configure()
+        FirebaseApp.configure()
         GMSPlacesClient.provideAPIKey("AIzaSyA5CwPDcRUowdTpaQTDNOYBka0uFoxorIQ")
         GMSServices.provideAPIKey("AIzaSyA5CwPDcRUowdTpaQTDNOYBka0uFoxorIQ")
     }
