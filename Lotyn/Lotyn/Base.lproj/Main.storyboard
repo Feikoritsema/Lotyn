@@ -30,7 +30,31 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gnu-iJ-opa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="155" y="156"/>
+            <point key="canvasLocation" x="150.5" y="155.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="rLL-pl-z2d">
+            <objects>
+                <viewController id="mQs-gD-F7N" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Vfp-xa-KZq"/>
+                        <viewControllerLayoutGuide type="bottom" id="h0E-X0-WMT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="U7B-6C-DGS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="aZZ-af-Adm">
+                                <rect key="frame" x="0.0" y="28" width="375" height="399"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2hz-0m-nHV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="671.5" y="155.5"/>
         </scene>
     </scenes>
     <color key="tintColor" red="0.12981265783309937" green="0.75036770105361938" blue="0.94248825311660767" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

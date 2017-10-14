@@ -13,6 +13,7 @@
 		404DB7D71F91D6920025B440 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 404DB7D61F91D6920025B440 /* Assets.xcassets */; };
 		404DB7DA1F91D6920025B440 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 404DB7D81F91D6920025B440 /* LaunchScreen.storyboard */; };
 		40917AC21F91FDCB00ACC17B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40917AC11F91FDCB00ACC17B /* GoogleService-Info.plist */; };
+		40917AC41F92022A00ACC17B /* Lotyn logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 40917AC31F92022A00ACC17B /* Lotyn logo.png */; };
 		7011A0893C82EF614820E1A9 /* Pods_Lotyn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A480F2A81AFC70C19455F5C /* Pods_Lotyn.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		404DB7D91F91D6920025B440 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		404DB7DB1F91D6920025B440 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40917AC11F91FDCB00ACC17B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		40917AC31F92022A00ACC17B /* Lotyn logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lotyn logo.png"; sourceTree = "<group>"; };
 		819BC65C7CD54F19E1C2F80C /* Pods-Lotyn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lotyn.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lotyn/Pods-Lotyn.release.xcconfig"; sourceTree = "<group>"; };
 		9A480F2A81AFC70C19455F5C /* Pods_Lotyn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lotyn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6D672EA2C541D7B597EA565 /* Pods-Lotyn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lotyn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lotyn/Pods-Lotyn.debug.xcconfig"; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				404DB7D81F91D6920025B440 /* LaunchScreen.storyboard */,
 				404DB7DB1F91D6920025B440 /* Info.plist */,
 				40917AC11F91FDCB00ACC17B /* GoogleService-Info.plist */,
+				40917AC31F92022A00ACC17B /* Lotyn logo.png */,
 			);
 			path = Lotyn;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			files = (
 				404DB7DA1F91D6920025B440 /* LaunchScreen.storyboard in Resources */,
 				40917AC21F91FDCB00ACC17B /* GoogleService-Info.plist in Resources */,
+				40917AC41F92022A00ACC17B /* Lotyn logo.png in Resources */,
 				404DB7D71F91D6920025B440 /* Assets.xcassets in Resources */,
 				404DB7D51F91D6920025B440 /* Main.storyboard in Resources */,
 			);
